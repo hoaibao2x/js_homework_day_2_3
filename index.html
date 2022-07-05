@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+        integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+    <!-- Main css -->
+    <link rel="stylesheet" href="./css/main.css">
+
+    <title>Document</title>
+</head>
+
+<body class="container">
+
+    <div class="card w-50 mx-auto">
+        <div class="card-header text-center bg-dark text-light">
+            Tính tiền lương nhân viên
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="soNgayLam">Số ngày làm:</label>
+                <input id="soNgayLam" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <button id="btnTinhToan1" class="btn btn-success">Tính nào !</button>
+            </div>
+            <div class="alert alert-info">
+                <span id="tongTienLuong">Tổng tiền lương:</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card w-50 mx-auto">
+        <div class="card-header text-center text-light">
+            Tính giá trị trung bình của 5 số thực
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="soThucMot">Số thực thứ nhất:</label>
+                <input id="soThucMot" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="soThucHai">Số thực thứ hai:</label>
+                <input id="soThucHai" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="soThucBa">Số thực thứ ba:</label>
+                <input id="soThucBa" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="soThucBon">Số thực thứ tư:</label>
+                <input id="soThucBon" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="soThucNam">Số thực thứ năm:</label>
+                <input id="soThucNam" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <button id="btnTinhToan2" class="btn btn-success">Tính nào !</button>
+            </div>
+            <div class="alert alert-info">
+                <span id="tbNamSo">Giá trị trung bình của 5 số thực là :</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card w-50 mx-auto">
+        <div class="card-header text-center text-light">
+            Quy đổi USD sang VNĐ
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="tongUSD">Số USD bạn đang có:</label>
+                <input id="tongUSD" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <button id="btnTinhToan3" class="btn btn-success">Tính nào !</button>
+            </div>
+            <div class="alert alert-info">
+                <span id="tongVND">Sau khi đổi ra VNĐ bạn sẽ có:</span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card w-50 mx-auto">
+        <div class="card-header text-center text-light">
+            Tính chu vi và diện tích của hình chữ nhật
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="chieuDaiHCN">Chiều dài hình chữ nhật:</label>
+                <input id="chieuDaiHCN" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="chieuRongHCN">Chiều rộng hình chữ nhật:</label>
+                <input id="chieuRongHCN" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <button id="btnTinhToan4" class="btn btn-success">Tính nào !</button>
+            </div>
+            <div class="alert alert-info">
+                <span id="chuViHCN">Chu vi hình chữ nhật: </span>
+            </div>
+            <div class="alert alert-info">
+                <span id="dienTichHCN">Diện tích hình chữ nhật: </span>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card w-50 mx-auto">
+        <div class="card-header text-center text-light">
+            Tính tổng 2 ký số
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label for="nhapSo">Nhập vào 1 số có 2 chữ số:</label>
+                <input id="nhapSo" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+                <button id="btnTinhToan5" class="btn btn-success">Tính nào !</button>
+            </div>
+            <div class="alert alert-info">
+                <span id="tongKySo">Tổng 2 ký số: </span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="./js/main.js"></script>
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
